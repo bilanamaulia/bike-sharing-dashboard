@@ -1,45 +1,16 @@
 [server]
-# Optimasi performa
-maxUploadSize = 200        # Maks ukuran upload file (MB)
-maxMessageSize = 200       # Maks ukuran pesan WebSocket (MB)
-enableCORS = false         # Nonaktifkan CORS untuk keamanan di cloud
+maxUploadSize = 200
+maxMessageSize = 200
+enableCORS = false
 enableXsrfProtection = true
 
 [browser]
-# Privasi & keamanan
-gatherUsageStats = false   # Nonaktifkan pelacakan penggunaan
-serverAddress = "0.0.0.0"  # Wajib untuk deployment cloud
+gatherUsageStats = false
+serverAddress = "0.0.0.0"
 
 [theme]
-# Kustomisasi tema (sesuai preferensi Anda: light theme + font putih)
-primaryColor = "#4CAF50"   # Hijau untuk elemen interaktif
+primaryColor = "#4CAF50"
 backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#F5F5F5"
-textColor = "#000000"      # Hitam untuk teks (putih tidak direkomendasikan di light theme)
+textColor = "#000000"
 font = "sans serif"
-
-[logger]
-# Debugging saat development (nonaktifkan di production)
-level = "info"[server]
-# Optimasi performa
-maxUploadSize = 200        # Maks ukuran upload file (MB)
-maxMessageSize = 200       # Maks ukuran pesan WebSocket (MB)
-enableCORS = false         # Nonaktifkan CORS untuk keamanan di cloud
-enableXsrfProtection = true
-
-[browser]
-# Privasi & keamanan
-gatherUsageStats = false   # Nonaktifkan pelacakan penggunaan
-serverAddress = "0.0.0.0"  # Wajib untuk deployment cloud
-
-[theme]
-# Kustomisasi tema (sesuai preferensi Anda: light theme + font putih)
-primaryColor = "#4CAF50"   # Hijau untuk elemen interaktif
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F5F5F5"
-textColor = "#000000"      # Hitam untuk teks (putih tidak direkomendasikan di light theme)
-font = "sans serif"
-
-[logger]
-# Debugging saat development (nonaktifkan di production)
-level = "info"
